@@ -18,5 +18,4 @@
 
 - I made a function using ChatGPT to make a function that copies the hexacode.
 
-- Live Silver website link =>
-   chttps://ahmed101na.github.io/Random-Background-Color-/
+- Live Silver website link => ()
