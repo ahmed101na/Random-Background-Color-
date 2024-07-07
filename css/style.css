@@ -1,0 +1,40 @@
+/* Import font from Google Fonts library 📥 */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* General control of elements */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Specify the style of the element that contains the entire page. */
+.container {
+  height: 100vh;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+/* Specify the style of the element that displays the color code. */
+.box-color {
+  border-radius: 35px;
+  background-color: black;
+  padding: 15px 100px 15px 100px;
+}
+
+/* Specify the copy button style */
+#copyButton {
+  margin-left: 10px;
+  font-weight: bold;
+  border-radius: 35px;
+  background-color: white;
+  padding: 15px 25px 15px 25px;
+}
+
+/* When the screen width is 470 pixels or less, the following formats will be applied */
+@media (max-width: 470px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
